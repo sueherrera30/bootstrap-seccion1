@@ -1,5 +1,30 @@
+
+.botonDownload{
+  background-color: #6f5499;
+  width: 200px;
+  height: 20px;
+  padding: 25px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;
+  text-align: center;
+  color:white;
+  border:solid 1px;
+  border-color:white;
+  border-radius: 8px;
+  margin-left: 540px;
+
+}
+.botonDownload:hover{
+  background-color: white;
+  color: #6f5499;
+}
+
+.textoChiquito{
+  margin-left: 35px;
+  color:#9370DB;
+}
 main {
-    background-color: #5b4283;    
+    background-color: #5b4283;
 }
 .seccionFyS{
     text-align: center;
