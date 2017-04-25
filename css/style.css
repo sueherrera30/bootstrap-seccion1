@@ -18,7 +18,7 @@ body {
 }
 
 .bloqueGris {
-  padding-top: 30px;
+
   box-sizing: border-box;
   background-color: whitesmoke;
   height: 80px;
@@ -31,11 +31,63 @@ body {
 
 }
 .bloqueGris li {
+  height: 80px;
+  width: 80px;
   display:inline-block;
+}
 
+li:hover {
+  background-color: #A4A5D6;
+  cursor:auto;
+}
+
+.bootstrapResaltado {
+  font-weight: 700;
+  color:black;
 }
 
 .bloqueGris a {
   color:black;
   text-decoration: none;
+}
+
+.navDer {
+  display:block;
+  float:right;
+  margin-right: 30px;
+}
+
+
+.botonDownload{
+  background-color: #6f5499;
+  width: 200px;
+  height: 20px;
+  padding: 25px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;
+  text-align: center;
+  color:white;
+  border:solid 1px;
+  border-color:white;
+  border-radius: 8px;
+  margin-left: 540px;
+
+}
+.botonDownload:hover{
+  background-color: white;
+  color: #6f5499;
+}
+.textoChiquito{
+  margin-left: 35px;
+  color:#9370DB;
+}
+main {
+    background-color: #5b4283;
+}
+.seccionFyS{
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 300px;
 }
